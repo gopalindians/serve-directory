@@ -1,7 +1,7 @@
 # serve-directory
 Serve your downloads or an other directory beautifully, let others download your files locally or over the internet
 
-#How to start
+## How to start
 
 Run in console
 
@@ -10,11 +10,11 @@ Run in console
 your current directory is ready to be served as downloadable locally or over the internet
 
 
-#Contribute
+## Contribute
 
 - fork
 - send pull request
 
 
-#Copyright
+## Copyright
 see [Licence](https://github.com/gopalindians/serve-directory/blob/master/LICENSE)
