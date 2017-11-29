@@ -34,41 +34,41 @@ error_reporting( E_ALL ); ?>
                 <tr>
                     <th scope="row"><?= $key; ?></th>
                     <td><a href="/<?= $dir; ?>" download><?= $dir; ?> <img download style="cursor:pointer;" width="20"
-                                                                           src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Download-Icon.png"></a>
+                                                                           src="//upload.wikimedia.org/wikipedia/commons/1/1e/Download-Icon.png"></a>
                     </td>
                     <td><?= formatSizeUnits( filesize( $dir ) ); ?></td>
 
 
 					<?php if ( get_file_extension( $dir ) === 'exe' ): ?>
                         <td><img width="20"
-                                 src="https://maxcdn.icons8.com/office/PNG/512/Files/exe-512.png"><?= get_file_extension( $dir ); ?>
+                                 src="//maxcdn.icons8.com/office/PNG/512/Files/exe-512.png"><?= get_file_extension( $dir ); ?>
                         </td>
 					<?php elseif ( get_file_extension( $dir ) === 'png' ): ?>
                         <td><img width="20"
-                                 src="http://www.iconhot.com/icon/png/file-icons-vs-2/256/png-36.png"><?= get_file_extension( $dir ); ?>
+                                 src="//www.iconhot.com/icon/png/file-icons-vs-2/256/png-36.png"><?= get_file_extension( $dir ); ?>
                         </td>
 
 					<?php elseif ( get_file_extension( $dir ) === 'php' ): ?>
                         <td><img width="20"
-                                 src="http://anques.com/wp-content/uploads/2017/03/icon-php1-1.png"><?= get_file_extension( $dir ); ?>
+                                 src="//anques.com/wp-content/uploads/2017/03/icon-php1-1.png"><?= get_file_extension( $dir ); ?>
                         </td>
 
 					<?php elseif ( get_file_extension( $dir ) === 'msi' ): ?>
-                        <td><img width="20" src="https://i.stack.imgur.com/ZE6c2.png"><?= get_file_extension( $dir ); ?>
+                        <td><img width="20" src="//i.stack.imgur.com/ZE6c2.png"><?= get_file_extension( $dir ); ?>
                         </td>
 
 					<?php elseif ( get_file_extension( $dir ) === 'zip' ): ?>
                         <td><img width="20"
-                                 src="http://www.freeiconspng.com/uploads/file-zip-icon-png-17.png"><?= get_file_extension( $dir ); ?>
+                                 src="//www.freeiconspng.com/uploads/file-zip-icon-png-17.png"><?= get_file_extension( $dir ); ?>
                         </td>
 
 					<?php elseif ( get_file_extension( $dir ) === 'jpg' ): ?>
                         <td><img width="20"
-                                 src="http://icons.iconarchive.com/icons/zerode/plump/256/Filetype-jpg-icon.png"><?= get_file_extension( $dir ); ?>
+                                 src="//icons.iconarchive.com/icons/zerode/plump/256/Filetype-jpg-icon.png"><?= get_file_extension( $dir ); ?>
                         </td>
 					<?php elseif ( get_file_extension( $dir ) === 'ini' ): ?>
                         <td><img width="20"
-                                 src="http://downloadicons.net/sites/default/files/ini-file-icon-96066.png"><?= get_file_extension( $dir ); ?>
+                                 src="//downloadicons.net/sites/default/files/ini-file-icon-96066.png"><?= get_file_extension( $dir ); ?>
                         </td>
 					<?php else: ?>
                         <td><img width="20" src=""><?= get_file_extension( $dir ); ?></td>
@@ -121,13 +121,13 @@ error_reporting( E_ALL ); ?>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+<script src="//code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+<script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
         integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
         crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
         integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
 </body>
