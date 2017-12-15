@@ -10,7 +10,7 @@ Run in console
 your current directory is ready to be served as downloadable locally or over the internet
 
 
-![alt text](https://github.com/gopalindians/serve-directory/blob/master/screen.png "Screen Shot")
+![alt text](https://github.com/gopalindians/serve-directory/blob/master/screen.jpg "Screen Shot")
  
 
 
