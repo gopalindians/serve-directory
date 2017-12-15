@@ -2,6 +2,9 @@
 ini_set('display_errors', '1');
 error_reporting(E_ALL);
 
+ini_set('max_execution_time', 600);
+ini_set('memory_limit', '1024M');
+
 $directory = scandir('.', SCANDIR_SORT_NONE);
 $totalSize = 0;
 
@@ -10,13 +13,11 @@ foreach ($directory as $item) {
 }
 
 $totalSize = formatSizeUnits($totalSize);
-
-
 ?>
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Download List!</title>
+    <title>Size: <?= $totalSize ?> | Files: <?= count($directory) ?> Download List!</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
